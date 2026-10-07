@@ -105,21 +105,21 @@ const matches = {
     first: [
 
         {
-            equipe1: "Team Alpha",
-            equipe2: "Team Beta",
-            prediction: "1"
-        },
-
-        {
-            equipe1: "Team Gamma",
-            equipe2: "Team Delta",
-            prediction: "X"
-        },
-
-        {
-            equipe1: "Team Epsilon",
-            equipe2: "Team Zeta",
+            equipe1: "Al Akhdood",
+            equipe2: "AL Ula",
             prediction: "2"
+        },
+
+        {
+            equipe1: "AL Wakrah",
+            equipe2: "Al-Gharafa SC",
+            prediction: "over2.5"
+        },
+
+        {
+            equipe1: "FAR Rabat",
+            equipe2: "Wydad Temara",
+            prediction: "1"
         }
 
     ],
@@ -132,21 +132,21 @@ const matches = {
     second: [
 
         {
-            equipe1: "Team Alpha",
-            equipe2: "Team Gamma",
-            prediction: "1"
+            equipe1: "MAS Fès",
+            equipe2: "Raja Casablanca",
+            prediction: "BTTS"
         },
 
         {
-            equipe1: "Team Beta",
-            equipe2: "Team Delta",
-            prediction: "2"
+            equipe1: "Al-Shamal",
+            equipe2: "Al Duhail",
+            prediction: "over 2.5"
         },
 
         {
-            equipe1: "Team Zeta",
-            equipe2: "Team Epsilon",
-            prediction: "X"
+            equipe1: "Khor Fakkan Club",
+            equipe2: "Al-wasl FC",
+            prediction: "over 2.5"
         }
 
     ],
@@ -159,21 +159,21 @@ const matches = {
     third: [
 
         {
-            equipe1: "Team Delta",
-            equipe2: "Team Alpha",
-            prediction: "X"
-        },
-
-        {
-            equipe1: "Team Gamma",
-            equipe2: "Team Zeta",
+            equipe1: "HJK Helsinki",
+            equipe2: "Vaasan Palloseura",
             prediction: "1"
         },
 
         {
-            equipe1: "Team Beta",
-            equipe2: "Team Epsilon",
-            prediction: "2"
+            equipe1: "Shamrock Rovers",
+            equipe2: "Drogheda United",
+            prediction: "1"
+        },
+
+        {
+            equipe1: "Asu Politehnica Timisoara",
+            equipe2: "Csa Steaua Bucuresti",
+            prediction: "1"
         }
 
     ],
@@ -186,21 +186,21 @@ const matches = {
     exact: [
 
         {
-            equipe1: "Team Alpha",
-            equipe2: "Team Beta",
+            equipe1: "MAS Fès",
+            equipe2: "Raja Casablanca",
+            prediction: "2-2"
+        },
+
+        {
+            equipe1: "FAR Rabat",
+            equipe2: "Wydad Temara",
             prediction: "2-1"
         },
 
         {
-            equipe1: "Team Gamma",
-            equipe2: "Team Delta",
+            equipe1: "Renaissance Zemamra",
+            equipe2: "Hassania Union Agadir",
             prediction: "1-1"
-        },
-
-        {
-            equipe1: "Team Epsilon",
-            equipe2: "Team Zeta",
-            prediction: "0-2"
         }
 
     ],
