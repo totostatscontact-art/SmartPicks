@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SmartPicks - Your Daily Match Picks</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================================
+         HEADER
+    ================================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            <span class="logo-icon">⚡</span>
+            <span>SmartPicks</span>
+        </div>
+
+        <div class="header-controls">
+
+    <div class="language-selector">
+        <button onclick="changeLanguage('en')" class="lang-btn active">EN</button>
+        <button onclick="changeLanguage('fr')" class="lang-btn">FR</button>
+        <button onclick="changeLanguage('ar')" class="lang-btn">عربي</button>
+    </div>
+
+    <button id="theme-toggle"
+            class="theme-btn"
+            onclick="toggleTheme()">
+        🌙
+    </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================================
+         HERO
+    ================================= -->
+
+    <main>
+
+        <section class="hero">
+
+    <div class="logo-display">
+
+    <div class="logo-glow"></div>
+
+    <img src="logo.jpg"
+         alt="SmartPicks"
+         class="hero-logo">
+
+    </div>
+
+    <p id="subtitle">
+        Your Daily Match Picks.
+    </p>
+          <div class="datetime">
+
+    <div id="current-date">
+        Wednesday, October 7, 2026
+    </div>
+
+    <div id="current-time">
+        15:00
+    </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- ================================
+             PICK CARDS
+        ================================= -->
+
+        <section class="picks-container">
+
+            <!-- FIRST SELECTION -->
+
+            <div class="pick-card first"
+                 onclick="openPrediction('first')">
+
+                <div class="card-icon">
+                    🎯
+                </div>
+
+                <div class="card-content">
+                    <h2 id="first-title">
+                        First Selection
+                    </h2>
+
+                    <p id="first-description">
+                        Our main selection of the day
+                    </p>
+                </div>
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </div>
+
+
+            <!-- SECOND SELECTION -->
+
+            <div class="pick-card second"
+                 onclick="openPrediction('second')">
+
+                <div class="card-icon">
+                    🔥
+                </div>
+
+                <div class="card-content">
+                    <h2 id="second-title">
+                        Second Selection
+                    </h2>
+
+                    <p id="second-description">
+                        Another smart combination
+                    </p>
+                </div>
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </div>
+
+
+            <!-- THIRD SELECTION -->
+
+            <div class="pick-card third"
+                 onclick="openPrediction('third')">
+
+                <div class="card-icon">
+                    ⚡
+                </div>
+
+                <div class="card-content">
+                    <h2 id="third-title">
+                        Third Selection
+                    </h2>
+
+                    <p id="third-description">
+                        A different combination
+                    </p>
+                </div>
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </div>
+
+
+            <!-- EXACT SCORES -->
+
+            <div class="pick-card exact"
+                 onclick="openPrediction('exact')">
+
+                <div class="card-icon">
+                    🎯
+                </div>
+
+                <div class="card-content">
+                    <h2 id="exact-title">
+                        Exact Scores
+                    </h2>
+
+                    <p id="exact-description">
+                        Our predicted exact scores
+                    </p>
+                </div>
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </div>
+
+
+            <!-- RISKY PREDICTION -->
+
+            <div class="pick-card risky"
+                 onclick="openPrediction('risky')">
+
+                <div class="card-icon">
+                    ⚠️
+                </div>
+
+                <div class="card-content">
+                    <h2 id="risky-title">
+                        Risky Prediction
+                    </h2>
+
+                    <p id="risky-description">
+                        Higher risk, higher potential
+                    </p>
+                </div>
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================
+         PREDICTION MODAL
+    ================================= -->
+
+    <div id="predictionModal" class="modal">
+
+        <div class="modal-content">
+
+            <button class="close-button"
+                    onclick="closePrediction()">
+                ×
+            </button>
+
+            <div class="modal-header">
+
+                <div id="modal-icon" class="modal-icon">
+                    🎯
+                </div>
+
+                <h2 id="modal-title">
+                    First Selection
+                </h2>
+
+                <p id="modal-subtitle">
+                    Today's smart picks
+                </p>
+
+            </div>
+
+
+            <!-- MATCHES WILL APPEAR HERE -->
+
+            <div id="matches-container" class="matches-container">
+
+                <div class="empty-message">
+                    <span>⚽</span>
+                    <p>Today's selections will appear here.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer>
+
+        <p>
+            © 2026 SmartPicks
+        </p>
+
+        <p id="footer-text">
+            Smart selections. Better choices.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
