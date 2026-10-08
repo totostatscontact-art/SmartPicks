@@ -104,25 +104,25 @@ const matches = {
 
     first: [
 
-        {
-            equipe1: "Al Akhdood",
-            equipe2: "AL Ula",
-            prediction: "2"
-        },
+    {
+        equipe1: "AS FAR Rabat",
+        equipe2: "Widad Temara",
+        prediction: "1"
+    },
 
-        {
-            equipe1: "AL Wakrah",
-            equipe2: "Al-Gharafa SC",
-            prediction: "over2.5"
-        },
+    {
+        equipe1: "MAS de Fès",
+        equipe2: "Raja Casablanca",
+        prediction: "2"
+    },
 
-        {
-            equipe1: "FAR Rabat",
-            equipe2: "Wydad Temara",
-            prediction: "1"
-        }
+    {
+        equipe1: "Union Touarga Sport",
+        equipe2: "RS Berkane",
+        prediction: "2"
+    }
 
-    ],
+],
 
 
     /* -------------------------------------
@@ -131,25 +131,25 @@ const matches = {
 
     second: [
 
-        {
-            equipe1: "MAS Fès",
-            equipe2: "Raja Casablanca",
-            prediction: "BTTS"
-        },
+    {
+        equipe1: "UTS Rabat",
+        equipe2: "RS Berkane",
+        prediction: "X"
+    },
 
-        {
-            equipe1: "Al-Shamal",
-            equipe2: "Al Duhail",
-            prediction: "over 2.5"
-        },
+    {
+        equipe1: "FAR Rabat",
+        equipe2: "Widad Témara",
+        prediction: "1"
+    },
 
-        {
-            equipe1: "Khor Fakkan Club",
-            equipe2: "Al-wasl FC",
-            prediction: "over 2.5"
-        }
+    {
+        equipe1: "Santos",
+        equipe2: "Flamengo",
+        prediction: "2"
+    }
 
-    ],
+],
 
 
     /* -------------------------------------
@@ -158,25 +158,25 @@ const matches = {
 
     third: [
 
-        {
-            equipe1: "HJK Helsinki",
-            equipe2: "Vaasan Palloseura",
-            prediction: "1"
-        },
+    {
+        equipe1: "Atlético Nacional",
+        equipe2: "Deportes Tolima",
+        prediction: "1"
+    },
 
-        {
-            equipe1: "Shamrock Rovers",
-            equipe2: "Drogheda United",
-            prediction: "1"
-        },
+    {
+        equipe1: "CFR Cluj",
+        equipe2: "Universitatea Cluj",
+        prediction: "X"
+    },
 
-        {
-            equipe1: "Asu Politehnica Timisoara",
-            equipe2: "Csa Steaua Bucuresti",
-            prediction: "1"
-        }
+    {
+        equipe1: "Athletico Paranaense",
+        equipe2: "Atlético Mineiro",
+        prediction: "2"
+    }
 
-    ],
+],
 
 
     /* -------------------------------------
@@ -185,25 +185,25 @@ const matches = {
 
     exact: [
 
-        {
-            equipe1: "MAS Fès",
-            equipe2: "Raja Casablanca",
-            prediction: "2-2"
-        },
+    {
+        equipe1: "HJK Helsinki",
+        equipe2: "VPS",
+        prediction: "2-0"
+    },
 
-        {
-            equipe1: "FAR Rabat",
-            equipe2: "Wydad Temara",
-            prediction: "2-1"
-        },
+    {
+        equipe1: "CFR Cluj",
+        equipe2: "Universitatea Cluj",
+        prediction: "2-1"
+    },
 
-        {
-            equipe1: "Renaissance Zemamra",
-            equipe2: "Hassania Union Agadir",
-            prediction: "1-1"
-        }
+    {
+        equipe1: "Santos",
+        equipe2: "Flamengo",
+        prediction: "1-2"
+    }
 
-    ],
+],
 
 
     /* -------------------------------------
@@ -212,25 +212,25 @@ const matches = {
 
     risky: [
 
-        {
-            equipe1: "Team Alpha",
-            equipe2: "Team Zeta",
-            prediction: "2"
-        },
+    {
+        equipe1: "UTS Rabat",
+        equipe2: "RS Berkane",
+        prediction: "1"
+    },
 
-        {
-            equipe1: "Team Beta",
-            equipe2: "Team Gamma",
-            prediction: "X"
-        },
+    {
+        equipe1: "Maghreb Fès",
+        equipe2: "Raja Casablanca",
+        prediction: "X"
+    },
 
-        {
-            equipe1: "Team Delta",
-            equipe2: "Team Epsilon",
-            prediction: "2"
-        }
+    {
+        equipe1: "Tractor Sazi",
+        equipe2: "Esteghlal",
+        prediction: "1"
+    }
 
-    ]
+],
 
 };
 
